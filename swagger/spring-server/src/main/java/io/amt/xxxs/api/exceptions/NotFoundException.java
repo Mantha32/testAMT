@@ -1,11 +1,11 @@
-package io.avalia.fruits.api.exceptions;
+package io.amt.xxxs.api.exceptions;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2017-07-26T19:36:34.802Z")
 
-public class ApiException extends Exception{
+public class NotFoundException extends ApiException {
     private int code;
-    public ApiException (int code, String msg) {
-        super(msg);
+    public NotFoundException (int code, String msg) {
+        super(code, msg);
         this.code = code;
     }
 }

@@ -1,6 +1,6 @@
-package io.avalia.fruits.api.spec.helpers;
+package io.amt.xxxs.api.spec.helpers;
 
-import io.avalia.fruits.api.DefaultApi;
+import io.amt.xxxs.api.DefaultApi;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -15,7 +15,7 @@ public class Environment {
     public Environment() throws IOException {
         Properties properties = new Properties();
         properties.load(this.getClass().getClassLoader().getResourceAsStream("environment.properties"));
-        String url = properties.getProperty("io.avalia.fruits.server.url");
+        String url = properties.getProperty("io.amt.xxxs.server.url");
         api.getApiClient().setBasePath(url);
 
     }

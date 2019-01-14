@@ -1,6 +1,6 @@
-package io.avalia.fruits.repositories;
+package io.amt.xxxs.repositories;
 
-import io.avalia.fruits.entities.FruitEntity;
+import io.amt.xxxs.entities.FruitEntity;
 import org.springframework.data.repository.CrudRepository;
 
 /**

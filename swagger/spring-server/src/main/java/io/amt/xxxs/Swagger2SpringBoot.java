@@ -1,4 +1,4 @@
-package io.avalia.fruits;
+package io.amt.xxxs;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.ExitCodeGenerator;

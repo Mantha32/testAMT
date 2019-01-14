@@ -1,9 +1,9 @@
-package io.avalia.fruits.api.endpoints;
+package io.amt.xxxs.api.endpoints;
 
-import io.avalia.fruits.api.FruitsApi;
-import io.avalia.fruits.entities.FruitEntity;
-import io.avalia.fruits.api.model.Fruit;
-import io.avalia.fruits.repositories.FruitRepository;
+import io.amt.xxxs.api.FruitsApi;
+import io.amt.xxxs.api.model.Fruit;
+import io.amt.xxxs.entities.FruitEntity;
+import io.amt.xxxs.repositories.FruitRepository;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

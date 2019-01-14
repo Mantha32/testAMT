@@ -1,4 +1,4 @@
-package io.avalia.fruits.api.util;
+package io.amt.xxxs.api.util;
 
 import java.io.IOException;
 

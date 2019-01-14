@@ -1,14 +1,13 @@
-package io.avalia.fruits.api.spec.steps;
+package io.amt.xxxs.api.spec.steps;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.avalia.fruits.ApiException;
-import io.avalia.fruits.ApiResponse;
-import io.avalia.fruits.api.DefaultApi;
-import io.avalia.fruits.api.dto.Fruit;
-import io.avalia.fruits.api.spec.helpers.Environment;
+import io.amt.xxxs.api.spec.helpers.Environment;
+import io.amt.xxxs.ApiException;
+import io.amt.xxxs.ApiResponse;
+import io.amt.xxxs.api.DefaultApi;
+import io.amt.xxxs.api.dto.Fruit;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertEquals;
@@ -40,7 +39,7 @@ public class CreationSteps {
 
     @Given("^I have a fruit payload$")
     public void i_have_a_fruit_payload() throws Throwable {
-        fruit = new io.avalia.fruits.api.dto.Fruit();
+        fruit = new io.amt.xxxs.api.dto.Fruit();
     }
 
     @When("^I POST it to the /fruits endpoint$")
